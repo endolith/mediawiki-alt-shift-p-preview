@@ -16,6 +16,8 @@ This userscript captures <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> in the cap
 2. Click the raw link below or install directly from [Greasy Fork](LINK_TO_YOUR_GREASYFORK_PAGE).
 3. The script is active immediately on supported sites. No configuration required.
 
+[📦 Install Script](https://github.com/endolith/mediawiki-alt-shift-p-preview/raw/main/mediawiki-alt-shift-p-preview.user.js)
+
 ## Technical Notes
 
 - Uses `document.addEventListener('keydown', ..., true)` (capture phase) to intercept before Chrome's built-in handler.
