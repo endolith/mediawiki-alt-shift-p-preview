@@ -13,10 +13,10 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
-    document.addEventListener('keydown', function(e) {
+    document.addEventListener('keydown', function (e) {
         if (e.altKey && e.shiftKey && e.key.toLowerCase() === 'p') {
             // Find MediaWiki preview button (works for both <input> and <button>)
             var previewBtn = document.querySelector('[name="wpPreview"]');
