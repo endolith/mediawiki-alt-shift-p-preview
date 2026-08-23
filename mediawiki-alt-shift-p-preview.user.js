@@ -1,10 +1,20 @@
 // ==UserScript==
 // @name         MediaWiki Alt+Shift+P Preview
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2.0
 // @description  Restores the Alt+Shift+P preview shortcut on MediaWiki sites, bypassing Chrome's native tab group shortcut.
 // @author       Qwen3.7-Plus
+// @license      MIT
 // @match        *://*.wikipedia.org/*
+// @match        *://*.wiktionary.org/*
+// @match        *://*.wikiquote.org/*
+// @match        *://*.wikibooks.org/*
+// @match        *://*.wikisource.org/*
+// @match        *://*.wikinews.org/*
+// @match        *://*.wikiversity.org/*
+// @match        *://*.wikivoyage.org/*
+// @match        *://*.wikidata.org/*
+// @match        *://*.mediawiki.org/*
 // @match        *://*.wikimedia.org/*
 // @match        *://*.fandom.com/*
 // @match        *://*.wiki/*
